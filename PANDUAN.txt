@@ -1,0 +1,39 @@
+PETUALANGAN BILANGAN BULAT V1.6 — SDN KECIPIR 01
+=================================================
+
+ISI PAKET
+- index.html: aplikasi, bisa dibuka langsung di browser.
+- manifest.webmanifest dan folder icons: ikon aplikasi/PWA.
+- sw.js: dukungan offline setelah aplikasi dibuka online pertama kali.
+- _headers: pengaturan cache untuk Netlify.
+
+CARA UPDATE NETLIFY (tanpa mengubah alamat website)
+1. Masuk ke app.netlify.com lalu pilih proyek petualang-bilangan-bulat.
+2. Klik Deploys, cari area 'Drag and drop' / 'Deploy manually'.
+3. Unggah ZIP ini jika menerima ZIP, atau ekstrak lalu seret folder yang berisi
+   index.html (jangan seret folder induk kosong).
+4. Setelah deployment sukses, buka https://petualang-bilangan-bulat.netlify.app/.
+5. Refresh paksa (Ctrl+F5) jika yang muncul masih versi lama.
+
+MODE SISWA
+- Pilih Mode Siswa > Profil > isi nama dan kelas.
+- Pilih materi, garis bilangan, game (mobil/lift/suhu/harta), atau kuis.
+- Kuis terdiri atas 10 soal dengan nilai otomatis, dapat dilanjutkan.
+- Untuk ganti siswa, buka Profil > Ganti ke siswa lain.
+
+MODE GURU
+- Pilih Mode Guru. Pada penggunaan pertama, isi nama guru dan buat PIN 4–8 angka.
+- Lihat riwayat hasil kuis dari browser ini, tambah soal, ekspor CSV atau JSON.
+- Cadangkan data sebelum pindah/mereset browser.
+
+BATASAN PENTING
+- Seluruh data tersimpan di browser/perangkat masing-masing, belum di cloud.
+- Mode Guru tidak otomatis melihat nilai dari HP siswa yang lain.
+- PIN guru adalah pembatas tampilan lokal, bukan login server yang aman.
+- Untuk sinkronisasi kelas lintas HP diperlukan database bersama, misalnya Firebase.
+- Bila sekolah menginginkan sinkronisasi, jangan mengandalkan ZIP offline saja.
+
+CATATAN VERSI
+- Versi ini disusun ulang berdasarkan kebutuhan yang sudah disepakati dan
+  struktur fitur berkas v1.5. Pengujian otomatis mencakup alur utama melalui
+  browser headless; belum menggantikan uji nyata pada HP siswa.

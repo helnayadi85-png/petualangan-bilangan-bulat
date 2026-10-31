@@ -1,0 +1,16 @@
+{
+  "id":"./",
+  "name":"Petualangan Bilangan Bulat - SDN Kecipir 01",
+  "short_name":"Bilangan Bulat",
+  "description":"Media belajar Matematika kelas VI dengan garis bilangan, game mobil, kuis, dan mode guru.",
+  "lang":"id",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f0f5ff",
+  "theme_color":"#2851b8",
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
